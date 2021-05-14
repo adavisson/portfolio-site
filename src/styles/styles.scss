@@ -1,0 +1,12 @@
+$blue: #3399cc;
+$light-blue: #d3d3d3;
+$dark-blue: #0071aa;
+$gray: #efeeee;
+$light-gray: #ffffff;
+$dark-gray: #d1cdc7;
+
+body {
+  background-color: $blue;
+}
+
+@import '../components/button.scss';

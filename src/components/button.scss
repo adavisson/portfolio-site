@@ -1,0 +1,27 @@
+.button {
+  border-radius: 0.2em;
+  width: fit-content;
+  padding: 0.5em 1em;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.primary {
+  background-color: $blue;
+  box-shadow: 1px 1px 5px $dark-blue, -1px -1px 3px $light-blue;
+
+  &:hover {
+    box-shadow: inset 1px 1px 5px $dark-blue, inset -1px -1px 3px $light-blue;
+  }
+}
+
+.secondary {
+  background-color: $gray;
+  box-shadow: 1px 1px 5px $dark-gray, -1px -1px 3px $light-gray;
+
+  &:hover {
+    box-shadow: inset 1px 1px 5px $dark-gray, inset -1px -1px 3px $light-gray;
+  }
+}
