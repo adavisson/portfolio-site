@@ -10,11 +10,22 @@ export interface INavbarProps {
 
 const Navbar: React.FC<INavbarProps> = ({ items = [] }) => {
   return (
-    <div>
-      {items.length > 0 &&
-        items.map(item => {
-          return <Link to={item.route}>{item.label}</Link>;
-        })}
+    <div className='navbar'>
+      <span>
+        <Link to='/' className='nav-brand'>
+          <h2>Andrew Davisson</h2>
+        </Link>
+      </span>
+      <span>
+        {items.length > 0 &&
+          items.map(item => {
+            return (
+              <Link to={item.route} className='nav-link'>
+                {item.label}
+              </Link>
+            );
+          })}
+      </span>
     </div>
   );
 };

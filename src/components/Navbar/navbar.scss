@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0em 2em;
+
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    margin: 0em 1em;
+
+    &:hover {
+      font-size: large;
+    }
+  }
+
+  .nav-brand {
+    text-decoration: none;
+    color: black;
+  }
+}
