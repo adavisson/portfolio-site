@@ -1,6 +1,6 @@
 import * as React from 'react';
 import '../styles/styles.scss';
-import Button from '../components/button';
+import Button from '../components/Button/button';
 
 const IndexPage: React.FC = () => {
   return (
