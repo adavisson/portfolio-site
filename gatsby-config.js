@@ -11,5 +11,15 @@ module.exports = {
         component: require.resolve(`./src/components/Layout/Layout.tsx`),
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blogPosts`,
+        path: `${__dirname}/src/blog/posts/`,
+      },
+    },
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
 };
