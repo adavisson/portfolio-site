@@ -8,6 +8,11 @@ $dark-gray: #d1cdc7;
 body {
   background-color: $blue;
   font-family: 'VT323', monospace;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 @import '../components/Button/button.scss';
