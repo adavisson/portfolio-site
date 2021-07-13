@@ -1,3 +1,23 @@
 .blog-post {
   padding: 3em 3em;
+  max-width: 900px;
+
+  p {
+    a {
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  }
+
+  code,
+  pre {
+    border-radius: 0.2em;
+    background: $dark-blue;
+    color: $yellow;
+  }
+
+  pre {
+    overflow: auto;
+    padding: 0.5em 0.5em;
+  }
 }

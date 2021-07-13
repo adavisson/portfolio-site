@@ -1,9 +1,10 @@
 $blue: #3399cc;
-$light-blue: #d3d3d3;
+$light-blue: #90d2f3;
 $dark-blue: #014668;
 $gray: #efeeee;
 $light-gray: #ffffff;
 $dark-gray: #d1cdc7;
+$yellow: #cece15;
 
 body {
   background-color: $blue;
@@ -17,6 +18,7 @@ body {
   .blog-posts,
   .home-content {
     padding: 3em;
+    max-width: 900px;
   }
 }
 

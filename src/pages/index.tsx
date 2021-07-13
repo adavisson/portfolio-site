@@ -5,18 +5,6 @@ import Image from '../components/Image/Image';
 import profilePic from '../images/profile.jpg';
 
 const IndexPage: React.FC = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "../images/profile.png" }) {
-        childImageSharp {
-          fixed(width: 400, height: 400) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-    }
-  `);
-
   return (
     <main>
       <title>Home Page</title>
