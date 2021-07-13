@@ -34,7 +34,7 @@ const IndexPage: React.FC = () => {
             automate tasks and processes.
           </p>
           <p>
-            am currently working on projects that are built with a variety of
+            I am currently working on projects that are built with a variety of
             technologies and frameworks, including: ReactJS, NodeJS, GraphQL,
             Apollo, Vue, and React-Native. Check out my Resume and Projects page
             to learn more about me and what I am working on.
