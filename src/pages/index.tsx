@@ -22,7 +22,7 @@ const IndexPage: React.FC = () => {
       <title>Home Page</title>
       <div className='home-content'>
         <h1>Welcome</h1>
-        <Img fixed={data.file.childImageSharp.fixed} />
+        <Image imgSrc={profilePic} />
         <div className='text-container'>
           <p>
             I am a Full Stack Engineer with 5 years of experience as a Systems
@@ -50,7 +50,6 @@ const IndexPage: React.FC = () => {
             hiking, weightlifting, and more recently I have been trying to get
             into photography.
           </p>
-          <Button />
         </div>
       </div>
     </main>

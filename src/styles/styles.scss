@@ -1,6 +1,6 @@
 $blue: #3399cc;
 $light-blue: #d3d3d3;
-$dark-blue: #0071aa;
+$dark-blue: #014668;
 $gray: #efeeee;
 $light-gray: #ffffff;
 $dark-gray: #d1cdc7;
@@ -19,4 +19,5 @@ body {
 @import '../components/Navbar/navbar.scss';
 @import '../components/BlogList/blogList.scss';
 @import '../components/BlogCard/BlogCard.scss';
+@import '../templates/blogPost.scss';
 @import '../components/Image/Image.scss';
