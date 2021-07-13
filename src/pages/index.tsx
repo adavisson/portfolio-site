@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import '../styles/styles.scss';
-import Button from '../components/Button/Button';
-import Img from 'gatsby-image';
+import Image from '../components/Image/Image';
+import profilePic from '../images/profile.jpg';
 
 const IndexPage: React.FC = () => {
   const data = useStaticQuery(graphql`
