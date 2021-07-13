@@ -9,8 +9,10 @@ const BlogPage: React.FC<any> = ({ data }) => {
   return (
     <main>
       <title>Blog</title>
-      <h1>Blog Posts</h1>
-      <BlogList posts={posts} />
+      <div className='blog-posts'>
+        <h1>Blog Posts</h1>
+        <BlogList posts={posts} />
+      </div>
     </main>
   );
 };

@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 export interface INavbarProps {
   items?: Array<{
@@ -9,8 +9,14 @@ export interface INavbarProps {
 }
 
 const Navbar: React.FC<INavbarProps> = ({ items = [] }) => {
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => setOffset(window.pageYOffset));
+  }, []);
+
   return (
-    <div className='navbar'>
+    <div className={`navbar ${offset >= 100 ? 'sticky' : ''}`}>
       <span>
         <Link to='/' className='nav-brand'>
           <h2>Andrew Davisson</h2>

@@ -7,10 +7,7 @@ const Layout: React.FC<{}> = ({ children }) => {
       label: 'projects',
       route: '/projects',
     },
-    {
-      label: 'about',
-      route: '/about',
-    },
+
     {
       label: 'blog',
       route: '/blog',

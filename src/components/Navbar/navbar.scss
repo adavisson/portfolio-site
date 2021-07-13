@@ -3,6 +3,9 @@
   justify-content: space-between;
   align-items: baseline;
   padding: 0em 2em;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: $blue;
 
   .nav-link {
     text-decoration: none;
@@ -18,4 +21,10 @@
     text-decoration: none;
     color: black;
   }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
