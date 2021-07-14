@@ -13,30 +13,31 @@ const IndexPage: React.FC = () => {
         <Image imgSrc={profilePic} />
         <div className='text-container'>
           <p>
-            I am a Full Stack Engineer with 5 years of experience as a Systems
-            Administrator in various industries. I have a passion for learning
-            new technologies and staying up to date with the latest trends in
+            I am a Full Stack Engineer and I am currently working as a React
+            Developer where I work with ReactJS on the frontend piece of our
+            application and NodeJS on the backend. Before I was a developer I
+            worked for about 5 years as a Systems Administrator managing a wide
+            variety of networks and systems. I have a passion for learning new
+            technologies and staying up to date with the latest trends in
             Software Development. I have experience working on highly
             collaborative teams, and I value effective communication. I welcome
             unique and challenging problems, and I enjoy finding ways to
             automate tasks and processes.
           </p>
           <p>
-            I am currently working on projects that are built with a variety of
-            technologies and frameworks, including: ReactJS, NodeJS, GraphQL,
-            Apollo, Vue, and React-Native. Check out my Resume and Projects page
-            to learn more about me and what I am working on.
+            Most of my work is writing Typescript using ReactJS and NodeJS, but
+            I have built many other projects using a variety of other languages
+            and frameworks, including: Ruby, Rails, GraphQL, Apollo, Vue, and
+            React-Native. Check out my Resume and Projects page to learn more
+            about me and what I am working on.
           </p>
           <p>
-            A little more about me, I grew up in South Carolina and went to
-            Clemson University (Go Tigers!). After graduating with a degree in
-            Computer Information Systems, I landed a job in Charleston, SC and
-            lived there for several years. While I really enjoyed living there,
-            I decided that I would like to live somewhere with more than zero
-            mountains. So, I made the move to Denver in the Summer of 2017 and I
-            am thoroughly enjoying it. My hobbies include golf, snowboarding,
-            hiking, weightlifting, and more recently I have been trying to get
-            into photography.
+            A little bit more about me, I grew up in South Carolina and went to
+            Clemson University (Go Tigers!&#128047;). After graduating with a
+            degree in Computer Information Systems, I lived to Charleson, SC for
+            about 3 years and then moved to Denver, CO where I now call home. My
+            hobbies include golf, snowboarding, running, and going hiking and
+            camping with my wife.
           </p>
         </div>
       </div>
