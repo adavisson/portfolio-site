@@ -8,10 +8,6 @@ const Layout: React.FC<{}> = ({ children }) => {
       route: '/projects',
     },
     {
-      label: 'resume',
-      route: '/resume',
-    },
-    {
       label: 'blog',
       route: '/blog',
     },
