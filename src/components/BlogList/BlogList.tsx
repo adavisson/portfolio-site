@@ -7,11 +7,6 @@ const BlogList: React.FC<any> = ({ posts }) => {
     <div className='blog-list'>
       {posts.map(post => {
         return (
-          // <div>
-          //   <Link to={post.fields.pagePath} className='blog-link'>
-          //     <h3>{post.frontmatter.title}</h3>
-          //   </Link>
-          // </div>
           <BlogCard
             title={post.frontmatter.title}
             date={post.frontmatter.date}
