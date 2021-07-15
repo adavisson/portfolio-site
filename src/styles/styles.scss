@@ -16,7 +16,8 @@ body {
   }
 
   .blog-posts,
-  .home-content {
+  .home-content,
+  .projects-content {
     padding: 3em;
     max-width: 900px;
   }
@@ -26,5 +27,7 @@ body {
 @import '../components/Navbar/navbar.scss';
 @import '../components/BlogList/blogList.scss';
 @import '../components/BlogCard/BlogCard.scss';
+@import '../components/Modal/modal.scss';
+@import '../components/ProjectCard/ProjectCard.scss';
 @import '../templates/blogPost.scss';
 @import '../components/Image/Image.scss';
