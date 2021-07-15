@@ -6,6 +6,8 @@ $light-gray: #ffffff;
 $dark-gray: #d1cdc7;
 $yellow: #cece15;
 
+$mobile-breakpoint: 800px;
+
 body {
   background-color: $blue;
   font-family: 'VT323', monospace;
@@ -20,6 +22,10 @@ body {
   .projects-content {
     padding: 3em;
     max-width: 900px;
+
+    @media (max-width: $mobile-breakpoint) {
+      padding: 1.5em;
+    }
   }
 }
 

@@ -28,6 +28,10 @@
       font-size: large;
     }
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    padding: 0em 1em;
+  }
 }
 
 .sticky {
