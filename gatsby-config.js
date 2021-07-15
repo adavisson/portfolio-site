@@ -21,5 +21,15 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Andrew's Portfolio Site`,
+        short_name: `Andrew's site`,
+        start_url: `/`,
+        display: `minimal-ui`,
+        icon: `./src/images/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
   ],
 };
