@@ -16,9 +16,13 @@ const Modal: React.FC<IModalProps> = ({
   return !show ? null : (
     <div className='modal'>
       <div className='modal-content'>
-        <h2>{title}</h2>
-        <p>{description}</p>
-        <Button onClick={onClose} text='Close' />
+        <div>
+          <h2>{title}</h2>
+          <p>{description}</p>
+        </div>
+        <div className='modal-buttons'>
+          <Button onClick={onClose}>Close</Button>
+        </div>
       </div>
     </div>
   );

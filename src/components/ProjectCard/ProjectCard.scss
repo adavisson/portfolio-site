@@ -13,4 +13,9 @@
     cursor: pointer;
     box-shadow: inset 1px 1px 5px $dark-blue, inset -1px -1px 3px $light-blue;
   }
+
+  .project-card-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
 }

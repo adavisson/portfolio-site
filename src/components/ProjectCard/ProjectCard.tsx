@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Button from '../Button/Button';
+import { FaGithub } from 'react-icons/fa';
 export interface IProjectCardProps {
   name: string;
   description: string;
@@ -21,14 +22,18 @@ const ProjectCard: React.FC<IProjectCardProps> = ({
           ? `${description.slice(0, 35)}...`
           : description}
       </p>
-      <p>
-        <a href={ghLink}>GitHub</a>
-      </p>
-      {demoLink && (
-        <p>
-          <a href={ghLink}>Demo</a>
-        </p>
-      )}
+      <div className='project-card-buttons'>
+        <a href={ghLink}>
+          <Button>
+            <FaGithub />
+          </Button>
+        </a>
+        {demoLink && (
+          <a href={ghLink}>
+            <Button>Demo</Button>
+          </a>
+        )}
+      </div>
     </div>
   );
 };
