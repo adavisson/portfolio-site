@@ -1,5 +1,4 @@
 import * as React from "react";
-import { useStaticQuery, graphql } from "gatsby";
 import "../styles/styles.scss";
 import Image from "../components/Image/Image";
 import profilePic from "../images/profile2.jpg";
