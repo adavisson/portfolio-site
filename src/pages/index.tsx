@@ -1,17 +1,17 @@
-import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import '../styles/styles.scss';
-import Image from '../components/Image/Image';
-import profilePic from '../images/profile.jpg';
+import * as React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import "../styles/styles.scss";
+import Image from "../components/Image/Image";
+import profilePic from "../images/profile2.jpg";
 
 const IndexPage: React.FC = () => {
   return (
     <main>
       <title>Home Page</title>
-      <div className='home-content'>
+      <div className="home-content">
         <h1>Welcome</h1>
         <Image imgSrc={profilePic} />
-        <div className='text-container'>
+        <div className="text-container">
           <p>
             I am a Full Stack Engineer and I am currently working as a React
             Developer where I work with ReactJS on the frontend piece of our
