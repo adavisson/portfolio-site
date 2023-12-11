@@ -1,22 +1,17 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from "react";
+import { Link } from "gatsby";
 
-export interface IBlogCardProps {
+export interface BlogCardProps {
   title: string;
-  date: Date;
+  date: string;
   subTitle?: string;
   path: string;
 }
 
-const BlogCard: React.FC<IBlogCardProps> = ({
-  title,
-  date,
-  subTitle,
-  path,
-}) => {
+const BlogCard: React.FC<BlogCardProps> = ({ title, date, subTitle, path }) => {
   return (
     <Link to={path}>
-      <div className='blog-card'>
+      <div className="blog-card">
         <h3>{title}</h3>
         {subTitle && <p>{subTitle}</p>}
         <p>{date}</p>

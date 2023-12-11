@@ -11,6 +11,9 @@ $mobile-breakpoint: 800px;
 body {
   background-color: $blue;
   font-family: 'VT323', monospace;
+  margin: 0 auto;
+  margin-top: 2em;
+  max-width: 900px;
 
   a {
     text-decoration: none;
@@ -20,16 +23,12 @@ body {
   .blog-posts,
   .home-content,
   .projects-content {
-    padding: 3em;
-    max-width: 900px;
-
-    @media (max-width: $mobile-breakpoint) {
-      padding: 1.5em;
-    }
+    padding: 3em 1em;
   }
 }
 
 @import '../components/Button/button.scss';
+@import '../components/Footer/footer.scss';
 @import '../components/Navbar/navbar.scss';
 @import '../components/BlogList/blogList.scss';
 @import '../components/BlogCard/BlogCard.scss';

@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 900px;
+  height: 3em;
+  background-color: $blue;
+  justify-content: center;
+  align-items: center;
+
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    margin: 0em 1em;
+    font-size: larger;
+
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}

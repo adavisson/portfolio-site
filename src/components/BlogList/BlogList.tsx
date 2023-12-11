@@ -1,11 +1,10 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import BlogCard from '../BlogCard/BlogCard';
+import React from "react";
+import BlogCard from "../BlogCard/BlogCard";
 
 const BlogList: React.FC<any> = ({ posts }) => {
   return (
-    <div className='blog-list'>
-      {posts.map(post => {
+    <div className="blog-list">
+      {posts.map((post) => {
         return (
           <BlogCard
             title={post.frontmatter.title}

@@ -1,7 +1,7 @@
 import * as React from "react";
 import "../styles/styles.scss";
 import Image from "../components/Image/Image";
-import profilePic from "../images/profile2.jpg";
+import profilePic from "../images/profile.jpg";
 
 const IndexPage: React.FC = () => {
   return (
@@ -12,31 +12,16 @@ const IndexPage: React.FC = () => {
         <Image imgSrc={profilePic} />
         <div className="text-container">
           <p>
-            I am a Full Stack Engineer and I am currently working as a React
-            Developer where I work with ReactJS on the frontend piece of our
-            application and NodeJS on the backend. Before I was a developer I
-            worked for about 5 years as a Systems Administrator managing a wide
-            variety of networks and systems. I have a passion for learning new
-            technologies and staying up to date with the latest trends in
-            Software Development. I have experience working on highly
-            collaborative teams, and I value effective communication. I welcome
-            unique and challenging problems, and I enjoy finding ways to
-            automate tasks and processes.
+            I am a Software Engineer in Denver, CO where I live with my wife and
+            toddler son. I am an avid runner and I enjoy getting out to bike and
+            play golf as well. I am slowly transitioning this site from a
+            portfolio site to more of a personal space where I can share things
+            that are interesting to me and things that I am currently working
+            on, so please bear with me as I get this thing going.
           </p>
           <p>
-            Most of my work is writing Typescript using ReactJS and NodeJS, but
-            I have built many other projects using a variety of other languages
-            and frameworks, including: Ruby, Rails, GraphQL, Apollo, Vue, and
-            React-Native. Check out my Resume and Projects page to learn more
-            about me and what I am working on.
-          </p>
-          <p>
-            A little bit more about me, I grew up in South Carolina and went to
-            Clemson University (Go Tigers!&#128047;). After graduating with a
-            degree in Computer Information Systems, I lived to Charleson, SC for
-            about 3 years and then moved to Denver, CO where I now call home. My
-            hobbies include golf, snowboarding, running, and going hiking and
-            camping with my wife.
+            If you are interested in learning more about me professionally,
+            please refer to the links at the bottom of the page.
           </p>
         </div>
       </div>

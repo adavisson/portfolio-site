@@ -1,13 +1,14 @@
-import React from 'react';
-import { graphql, Link } from 'gatsby';
-import Button from '../components/Button/Button';
+import React from "react";
+import { graphql, Link } from "gatsby";
+import Button from "../components/Button/Button";
+import "../styles/styles.scss";
 
 const BlogPost: React.FC<any> = ({ data }) => {
   const post = data.markdownRemark;
 
   return (
-    <div className='blog-post'>
-      <Link to='/blog'>
+    <div className="blog-post">
+      <Link to="/blog">
         <Button>back to blog</Button>
       </Link>
       <h1>{post.frontmatter.title}</h1>

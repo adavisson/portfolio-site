@@ -1,22 +1,13 @@
-import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import React, { PropsWithChildren } from "react";
+import Navbar from "../Navbar/Navbar";
+import { Footer } from "../Footer/Footer";
 
-const Layout: React.FC<{}> = ({ children }) => {
-  const items = [
-    {
-      label: 'projects',
-      route: '/projects',
-    },
-    {
-      label: 'blog',
-      route: '/blog',
-    },
-  ];
-
+const Layout: React.FC<PropsWithChildren<{}>> = ({ children }) => {
   return (
     <>
-      <Navbar items={items} />
+      <Navbar />
       {children}
+      <Footer />
     </>
   );
 };

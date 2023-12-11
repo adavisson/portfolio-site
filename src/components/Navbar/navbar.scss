@@ -2,13 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0em 2em;
-  box-sizing: border-box;
-  overflow: hidden;
+  padding: 0 1em;
   background-color: $blue;
   height: 4em;
-  /** Maybe */
-  // max-width: 1200px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 900px;
 
   .nav-link {
     text-decoration: none;
@@ -23,19 +24,15 @@
   .nav-brand {
     text-decoration: none;
     color: black;
+    h2 {
+      font-weight: normal;
+    }
 
     &:hover {
-      font-size: large;
+      h2 {
+        font-weight: bold;
+      }
     }
   }
-
-  @media (max-width: $mobile-breakpoint) {
-    padding: 0em 1em;
-  }
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
